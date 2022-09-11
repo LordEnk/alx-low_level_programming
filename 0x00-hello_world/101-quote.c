@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * maim - main block
+ * main - main block
  * Return: 1
  */
 int main(void)
