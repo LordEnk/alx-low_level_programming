@@ -1,18 +1,16 @@
 #include <stdio.h>
-
 /**
  * main - main block
  * Return: 0
  */
 int main(void)
 {
-	char d = 'a';
+	int a = 48;
 
-	while (d <= 'z')
+	while (a < 58)
 	{
-		if (d != 'q' && d != 'e')
-		putchar(d);
-		d++;
+		putchar(a);
+		a++;
 	}
 	putchar('\n');
 
