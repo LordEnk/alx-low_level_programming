@@ -2,9 +2,9 @@
 
 /**
  * main - expressed in the main block
- * Return: 
+ * Return: 0
  */
-int void print_alphabet(void);
+int void print_alphabet(void)
 {
 	int i;
 
