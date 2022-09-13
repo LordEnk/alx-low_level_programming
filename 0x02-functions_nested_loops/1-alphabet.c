@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - expressed in the main block
- * Return: 0
+ * main - print small case letters then a new line
  */
 void print_alphabet(void)
 {
@@ -13,6 +12,4 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-
-	return (0);
 }
