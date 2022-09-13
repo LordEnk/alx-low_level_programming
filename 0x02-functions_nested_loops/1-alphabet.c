@@ -4,7 +4,7 @@
  * main - expressed in the main block
  * Return: 0
  */
-int void print_alphabet(void)
+void print_alphabet(void)
 {
 	int i;
 
