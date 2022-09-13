@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print small case letters then a new line
+ * print_alphabet - print small case letters then a new line
  */
 void print_alphabet(void)
 {
