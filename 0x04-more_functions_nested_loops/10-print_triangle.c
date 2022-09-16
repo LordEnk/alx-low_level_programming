@@ -2,6 +2,7 @@
 
 /**
  * print_triangle - Main block
+ * @size: is a parameter
  *
  */
 void print_triangle(int size)
