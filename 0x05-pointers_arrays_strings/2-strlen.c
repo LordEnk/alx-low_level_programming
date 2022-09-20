@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strlen - main block 
- * @s: parameter
- * Return: the length of the string
+ * _strlen - main block
+ * @s: string parameter
+ * Return: string length
  */
 int _strlen(char *s)
 {
-	int i = 0;
+	int i;
 
 	while (*(s + i) != '\0')
 		i++;
