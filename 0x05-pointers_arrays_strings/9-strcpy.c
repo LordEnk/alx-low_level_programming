@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcpy - main block
+ * _strcpy - main block
  * @dest: array parameter
  * @src: string parameter
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -21,7 +22,7 @@ char *_strcpy(char *dest, char *src)
 		i++;
 	}
 
-	i = i
+	i = i;
 		while (i <= n)
 		{
 			dest[i] = '\0';
