@@ -2,14 +2,13 @@
 
 /**
  * _strcat - main block
- * @dest:  string parameter
+ * @dest: string parameter
  * @src: string parameter 2
  * Return: concatenated string
  */
 char *_strcat(char *dest, char *src)
 {
 	int a = 0, b = 0;
-	char *c;
 
 	while (dest[a] != '\0')
 		a++;
@@ -19,6 +18,5 @@ char *_strcat(char *dest, char *src)
 		dest[a] = src[b];
 	}
 	dest[a] = '\0';
-	c = dest;
-	return (c);
+	return (dest);
 }
