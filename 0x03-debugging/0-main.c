@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - checks if positive or negative
- * Return: 0
+ * main - checks if positive or negative
+ * Return: 0
  */
-int main(void)
+
+int main(void)
 {
 	int i;
 
