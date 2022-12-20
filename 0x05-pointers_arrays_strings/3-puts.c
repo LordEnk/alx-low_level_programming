@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _puts - Main block 
+ * _puts - Main block
  * @str: parameter
  *
  */
+
 void _puts(char *str)
 {
 	int i = 0;
