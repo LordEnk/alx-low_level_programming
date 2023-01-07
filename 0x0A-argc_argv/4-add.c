@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j, sum;
+	int i, j, sm;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -23,10 +23,11 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
+
 	for (i = 1; i < argc; i++)
 	{
-		sum = sum + argv[i];
+		sm = sm + argv[i];
 	}
-	printf("%d\n", sum);
+	printf("%d\n", sm);
 	return (0);
 }
