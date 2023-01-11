@@ -21,8 +21,8 @@ int _strlen(char *s)
 /**
  * str_concat - concatenates two strings
  * @s1: string 1
- * @s1: string 2
- * Return: char or Null 
+ * @s2: string 2
+ * Return: char or Null
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -47,7 +47,7 @@ char *str_concat(char *s1, char *s2)
 	while (*s1)
 		*s++ = *s1++;
 
-	while((*s++ = *s2++))
+	while (*s++ = *s2++)
 		;
 	return (conc);
 }
