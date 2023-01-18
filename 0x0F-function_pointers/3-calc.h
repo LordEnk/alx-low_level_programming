@@ -7,7 +7,7 @@
  * @f: The function involved
  */
 
-typedef struct op
+struct op
 {
 	char *op;
 	int (*f)(int a, int b);
