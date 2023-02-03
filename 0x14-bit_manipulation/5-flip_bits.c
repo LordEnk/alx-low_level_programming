@@ -2,21 +2,21 @@
 
 /**
   * flip_bits  - Counts the bit to change to another value
-  * @n: Decimal number 
+  * @n: Decimal number
   * @m: Decimal number to compare
   * Return: Number of bits between the two numbers.
   */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int i;
+	unsigned int i = 0;
 
-	i = 0;
-	n = n ^ m;
-	while (n)
+	while (n > 0 || m > 0)
 	{
-		i += n & 1;
+		if (((n ^ m)  & 1) == 1)
+			i++;
 		n >>= 1;
+		m >>= 1;
 	}
 	return (1);
 }
