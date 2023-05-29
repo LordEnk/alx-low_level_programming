@@ -1,0 +1,3 @@
+#this 8s a make file 
+all:
+	gcc main.c school.c -o school
